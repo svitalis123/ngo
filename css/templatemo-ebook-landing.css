@@ -1067,3 +1067,7 @@ strong {
     text-align: center;
     padding: 2rem;
 }
+
+.projectspacing > p {
+    padding: 1rem;
+}
