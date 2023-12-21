@@ -179,6 +179,11 @@ strong {
     margin-right: 10px;
 }
 
+.avatar_image {
+    width: 300px;
+    height: 300px;
+}
+
 /*---------------------------------------
   CUSTOM LINK              
 -----------------------------------------*/
@@ -595,7 +600,7 @@ strong {
 @media screen and (min-width: 991px) {
     .hero-section {
         height: calc(90vh - 88px);
-        padding-top: 350px;
+        /* padding-top: 350px;   */
     }
 }
 
@@ -673,7 +678,7 @@ strong {
     z-index: 2;
     overflow: hidden;
     margin: auto;
-    padding: 25px 45px;
+    /* padding: 25px 45px; */
 }
 
 .custom-block-info {
@@ -1051,4 +1056,14 @@ strong {
     .avatar-group > div {
         flex-wrap: nowrap !important;
     }
+}
+
+.Advisory_S {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.names_adv {
+    text-align: center;
+    padding: 2rem;
 }
