@@ -428,8 +428,8 @@ strong {
     vertical-align: top;
     color: var(--white-color);
     font-size: var(--h6-font-size);
-    width: 100px;
-    height: 40px;
+    width: 100%;
+    height: 100px;
     line-height: 40px;
     text-align: center;
     position: relative;
@@ -944,7 +944,7 @@ strong {
 }
 
 .social-icon-link {
-    background: var(--secondary-color);
+    background: var(--primary-color );
     border-radius: var(--border-radius-large);
     color: var(--white-color);
     font-size: var(--copyright-font-size);
@@ -958,7 +958,7 @@ strong {
 }
 
 .social-icon-link:hover {
-    background: var(--primary-color);
+    background: var(--secondary-color);
     color: var(--white-color);
 }
 
@@ -1070,4 +1070,10 @@ strong {
 
 .projectspacing > p {
     padding: 1rem;
+}
+
+.figure_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
